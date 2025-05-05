@@ -2,15 +2,6 @@
 
 Automatically extract, analyze, and organize candidate resumes from Gmail into a structured Google Sheet using Python.
 
-resume-analyzer-n8n-to-python/
-├── .env.example
-├── requirements.txt
-├── resume_analyzer.py
-├── credentials/
-│   ├── gmail_client_secret.json     # You add this
-│   └── gmail_token.json             # Will be generated
-├── README.md
-└── .gitignore
 
 ## 🔧 Features
 
