@@ -4,7 +4,7 @@
 
 Automatically extract, analyze, and organize candidate resumes from Gmail into a structured **Google Sheet** using **AI-powered insights** (powered by OpenAI).
 
-This is the **Python version** of the original n8n workflow. It uses **Gmail API**, **OpenAI**, and **Google Sheets API** to automate resume screening for HR teams.
+It uses **Gmail API**, **OpenAI**, and **Google Sheets API** to automate resume screening for HR teams.
 
 ---
 
