@@ -8,6 +8,8 @@ This is the **Python version** of the original n8n workflow. It uses **Gmail API
 
 ---
 
+<img width="521" alt="Screenshot 2025-05-05 at 6 14 32 PM" src="https://github.com/user-attachments/assets/39db765d-d9e6-4d4b-8754-5ba90aba75e3" />
+
 ## ✅ Features
 
 - 📨 Triggers on **new unread emails** in Gmail
@@ -149,4 +151,6 @@ It will:
 - Analyze it with OpenAI
 - Append to Google Sheet
 - Send a formatted email summary
+  
+
 
