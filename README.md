@@ -10,7 +10,7 @@ It uses **Gmail API**, **OpenAI**, and **Google Sheets API** to automate resume 
 
 <img width="521" alt="Screenshot 2025-05-05 at 6 14 32 PM" src="https://github.com/user-attachments/assets/39db765d-d9e6-4d4b-8754-5ba90aba75e3" />
 
-## ✅ Features
+## Features
 
 - 📨 Triggers on **new unread emails** in Gmail
 - 📄 Automatically downloads **PDF attachments** (resumes)
@@ -20,14 +20,14 @@ It uses **Gmail API**, **OpenAI**, and **Google Sheets API** to automate resume 
   - Generate a concise summary (under 250 characters)
   - Score the resume out of 100
   - Highlight top 5 standout achievements
-- 📊 Saves all data into a **Google Sheet**
+-  Saves all data into a **Google Sheet**
 - 📨 *(Optional)* Sends a formatted **HTML summary email** to recruiters
 
 Perfect for HR teams looking to **screen applicants faster and smarter** using automation.
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 
 Before running this script, make sure you have:
 
@@ -43,7 +43,7 @@ Before running this script, make sure you have:
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 Install with:
 
@@ -81,7 +81,7 @@ resume-analyzer/
 
 ---
 
-## 🧩 How It Works
+## How It Works
 
 1. **Triggers on new unread email**: The script checks your Gmail inbox for unread messages.
 2. **Downloads PDF attachment**: If an email contains a PDF resume, it gets downloaded locally.
@@ -92,7 +92,7 @@ resume-analyzer/
 
 ---
 
-## 🧪 Sample Output
+## Sample Output
 
 ```json
 {
@@ -114,7 +114,7 @@ resume-analyzer/
 
 ---
 
-## 🧾 Environment Variables
+## Environment Variables
 
 Create a `.env` file with the following:
 
@@ -133,7 +133,7 @@ OPENAI_API_KEY="your-openai-api-key-here"
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Set up Google API access:
    - Go to [Google Cloud Console](https://console.cloud.google.com/)
