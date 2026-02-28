@@ -12,16 +12,16 @@ It uses **Gmail API**, **OpenAI**, and **Google Sheets API** to automate resume 
 
 ## Features
 
-- 📨 Triggers on **new unread emails** in Gmail
-- 📄 Automatically downloads **PDF attachments** (resumes)
-- 🤖 Uses **OpenAI GPT** models to:
+- Triggers on **new unread emails** in Gmail
+- Automatically downloads **PDF attachments** (resumes)
+- Uses **OpenAI GPT** models to:
   - Extract personal info (name, email, LinkedIn)
   - Identify key skills
   - Generate a concise summary (under 250 characters)
   - Score the resume out of 100
   - Highlight top 5 standout achievements
 -  Saves all data into a **Google Sheet**
-- 📨 *(Optional)* Sends a formatted **HTML summary email** to recruiters
+-  *(Optional)* Sends a formatted **HTML summary email** to recruiters
 
 Perfect for HR teams looking to **screen applicants faster and smarter** using automation.
 
@@ -67,7 +67,7 @@ pydantic==2.9.2
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 resume-analyzer/
